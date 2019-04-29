@@ -23,14 +23,8 @@ import okhttp3.OkHttpClient;
 
 
 public class MainActivity extends AppCompatActivity {
-
-
-
     private RecyclerView mRecyclerView;
     private LinearLayoutManager mLinearLayoutManager;
-
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
                         adImageView.setDy(mLinearLayoutManager.getHeight() - view.getTop());
 
                     }
+
                 }
             }
         });

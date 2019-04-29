@@ -17,6 +17,7 @@ import android.util.AttributeSet;
 public class AdImageViewVersion1 extends AppCompatImageView {
 
     /**
+     *
      * 可以滑动显示全部图片内容
      * @param context
      * @param attrs
