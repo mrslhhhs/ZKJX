@@ -14,6 +14,9 @@ import com.zkjx.myapplication.view.AdImageViewVersion1;
 import java.util.List;
 
 public class CommonAdapter extends RecyclerView.Adapter<CommonAdapter.ViewHolder> {
+    /**
+     * 配合AdImageViewVersion1使用
+     */
     Context context;
     List<String> mockDatas;
     public CommonAdapter(Context context ,List<String> mockDatas){
